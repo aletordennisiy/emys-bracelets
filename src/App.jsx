@@ -19,12 +19,17 @@ import {
 const heroRack = "/hero-rack.jpg";
 const coralHero = "/coral.jpg";
 const warriorDetail = "/warrior.jpg";
+const anchorImage = "/anchor.jpg";
+const pantherImage = "/panther.jpg";
 const socialHands = "/social-hands.jpg";
+const displayStand = "/display-stand.jpg";
+const detailCloseup = "/detail-closeup.jpg";
+const manifestoImage = "/manifesto.jpg";
 const logoSeal = "/logo.jpg";
+
 const galleryCoral = coralHero;
 const galleryWarrior = warriorDetail;
-const galleryRack = heroRack;
-const manifestoImage = socialHands;
+const galleryRack = displayStand;
 
 const styles = `
   * { box-sizing: border-box; }
@@ -286,10 +291,46 @@ function ProgressBar({ value }) {
 }
 
 const stones = [
-  { id: "warrior", name: "The Warrior", stone: "Tiger’s Eye", vibe: "For courage, clarity, confidence, luck, and focus.", line: "You walked in. The room noticed.", mood: "Bold presence", color: "linear-gradient(to bottom, rgba(252,211,77,.40), rgba(180,83,9,.35), rgba(10,10,10,.9))", image: warriorDetail },
-  { id: "heritage", name: "The Heritage", stone: "Natural Coral", vibe: "For wealth, womanhood, legacy, vitality, and culture.", line: "Some pieces are worn. This one is inherited.", mood: "Royal warmth", color: "linear-gradient(to bottom, rgba(253,186,116,.35), rgba(185,28,28,.30), rgba(10,10,10,.9))", image: coralHero },
-  { id: "anchor", name: "The Anchor", stone: "Lava Stone", vibe: "For grounding, strength, emotional stability, and power.", line: "Strong. Grounded. Unmistakable.", mood: "Grounded calm", color: "linear-gradient(to bottom, rgba(214,211,209,.10), rgba(68,64,60,.25), rgba(10,10,10,.9))", image: heroRack },
-  { id: "panther", name: "The Panther", stone: "Blue Agate", vibe: "For power, beauty, and presence.", line: "She doesn’t ask for attention. It finds her.", mood: "Electric elegance", color: "linear-gradient(to bottom, rgba(103,232,249,.30), rgba(29,78,216,.30), rgba(10,10,10,.9))", image: socialHands },
+  {
+    id: "warrior",
+    name: "The Warrior",
+    stone: "Tiger’s Eye",
+    vibe: "For courage, clarity, confidence, luck, and focus.",
+    line: "You walked in. The room noticed.",
+    mood: "Bold presence",
+    color: "linear-gradient(to bottom, rgba(252,211,77,.40), rgba(180,83,9,.35), rgba(10,10,10,.9))",
+    image: warriorDetail
+  },
+  {
+    id: "heritage",
+    name: "The Heritage",
+    stone: "Natural Coral",
+    vibe: "For wealth, womanhood, legacy, vitality, and culture.",
+    line: "Some pieces are worn. This one is inherited.",
+    mood: "Royal warmth",
+    color: "linear-gradient(to bottom, rgba(253,186,116,.35), rgba(185,28,28,.30), rgba(10,10,10,.9))",
+    image: coralHero
+  },
+  {
+    id: "anchor",
+    name: "The Anchor",
+    stone: "Lava Stone",
+    vibe: "For grounding, strength, emotional stability, and power.",
+    line: "Strong. Grounded. Unmistakable.",
+    mood: "Grounded calm",
+    color: "linear-gradient(to bottom, rgba(214,211,209,.10), rgba(68,64,60,.25), rgba(10,10,10,.9))",
+    image: anchorImage
+  },
+  {
+    id: "panther",
+    name: "The Panther",
+    stone: "Blue Agate",
+    vibe: "For power, beauty, and presence.",
+    line: "She doesn’t ask for attention. It finds her.",
+    mood: "Electric elegance",
+    color: "linear-gradient(to bottom, rgba(103,232,249,.30), rgba(29,78,216,.30), rgba(10,10,10,.9))",
+    image: pantherImage
+  }
 ];
 
 const charms = [
