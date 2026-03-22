@@ -481,7 +481,7 @@ function ARMirror({ activeTone, selectedSymbols, cameraOn, onToggleCamera }) {
         <video ref={videoRef} autoPlay muted playsInline className="ar-bg" />
       ) : (
         <>
-          <img src={socialHands} alt="AR preview background" className="ar-bg" />
+          <img src={displayStand} alt="AR preview background" className="ar-bg" />
           <div className="ar-dark" />
         </>
       )}
@@ -791,7 +791,7 @@ export default function EmysARJewelryExperience() {
         </div>
         <div className="gallery-grid">
           <div className="gallery-card tall">
-            <img src={galleryRack} alt="Curated bracelet collection display" />
+            <img src={socialHands} alt="Curated bracelet collection display" />
             <div className="gallery-note">
               <div className="gallery-note-title">The world of the brand</div>
               <div className="gallery-note-copy">A fuller sense of abundance, variety, and craftsmanship makes the brand feel established and worthy of trust.</div>
