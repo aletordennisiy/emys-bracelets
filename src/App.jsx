@@ -725,7 +725,7 @@ export default function EmysARJewelryExperience() {
                 </div>
               </div>
               <ButtonBase href={whatsappHref} blank className="btn-primary" style={{ height: 56 }}>
-                <WandSparkles size={18} /> Send Your Design to Emy <ArrowRight size={18} />
+                <Sparkles size={18} /> Send Your Design to Emy <ArrowRight size={18} />
               </ButtonBase>
             </div>
           </div>
