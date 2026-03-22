@@ -740,7 +740,7 @@ export default function EmysARJewelryExperience() {
         <div className="social-grid">
           <Card className="social-image-card">
             <div className="img">
-              <img src={socialHands} alt="Customers holding brochure and bracelets" />
+              <img src={detailCloseup} alt="Customers holding brochure and bracelets" />
               <div className="shade" />
               <div className="social-copy">
                 <div className="eyebrow" style={{ color: "rgba(167,243,208,.55)" }}>Worn with confidence</div>
@@ -812,7 +812,7 @@ export default function EmysARJewelryExperience() {
             </div>
           </div>
           <div className="gallery-card">
-            <img src={socialHands} alt="Emy's brochure held with bracelet pieces" />
+            <img src={displayStand} alt="Emy's brochure held with bracelet pieces" />
             <div className="gallery-note">
               <div className="gallery-note-title">Human proof</div>
               <div className="gallery-note-copy">Real hands and real pieces create emotional trust faster than generic testimonials.</div>
